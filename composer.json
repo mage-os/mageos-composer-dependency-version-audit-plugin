@@ -1,8 +1,8 @@
 {
-  "name": "magento/composer-dependency-version-audit-plugin",
+  "name": "mage-os/composer-dependency-version-audit-plugin",
   "type": "composer-plugin",
   "description": "Validating packages through a composer plugin",
-  "version": "0.1.5",
+  "version": "1.0.5",
   "license": [
     "OSL-3.0"
   ],
@@ -25,5 +25,8 @@
     "psr-4": {
       "Magento\\ComposerDependencyVersionAuditPlugin\\": "tests/Unit/Magento/ComposerDependencyVersionAuditPlugin/"
     }
+  },
+  "replace": {
+    "magento/composer-dependency-version-audit-plugin": "0.1.5"
   }
 }
